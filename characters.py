@@ -1,4 +1,4 @@
-characters# characters.py
+# characters.py
 
 class Qbert:
     """Represents the main character, Q*bert."""
