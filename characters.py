@@ -64,3 +64,69 @@ class Coily:
             y -= 1
 
         self.position = (x, y)
+
+
+# Import the necessary utility functions
+from utils import calculate_distance, is_adjacent, log_event
+
+class Lucifuge:
+    """Represents Lucifuge, a complex and knowledgeable entity in the Q-BERT game world."""
+    
+    INITIAL_POSITION = (5, 5)
+    KNOWLEDGE_THRESHOLD = 10  # Threshold for activating special abilities
+
+    def __init__(self):
+        """Initialize Lucifuge's position and attributes."""
+        self.position = self.INITIAL_POSITION
+        self.knowledge = 0
+
+    def move(self, new_position):
+        """Update Lucifuge's position based on game logic.
+        
+        Parameters:
+            new_position (tuple): The new position for Lucifuge.
+        """
+        if self.is_valid_position(new_position):
+            self.position = new_position
+            self.gain_knowledge()
+
+    def is_valid_position(self, position):
+        """Check if the given position is valid.
+        
+        Parameters:
+            position (tuple): The position to validate.
+            
+        Returns:
+            bool: True if valid, False otherwise.
+        """
+        # Example validation logic; to be modified as per game's rules
+        # Using the is_adjacent utility function to validate the move
+        return is_adjacent(self.position, position)
+
+    def gain_knowledge(self):
+        """Increase Lucifuge's knowledge when moving to a new position."""
+        self.knowledge += 1
+        log_event(f"Lucifuge's knowledge increased to {self.knowledge}")
+
+    def use_ability(self):
+        """Perform a special action based on Lucifuge's knowledge.
+        
+        This could involve manipulating the game board, affecting other characters, etc.
+        """
+        if self.knowledge >= self.KNOWLEDGE_THRESHOLD:
+            self.perform_special_action()
+            self.knowledge = 0  # Reset knowledge after using the ability
+
+    def perform_special_action(self):
+        """Placeholder method for Lucifuge's special action.
+        
+        This method can be expanded to include specific game mechanics.
+        """
+        # Example: Lucifuge reveals hidden paths or manipulates the board
+        log_event("Lucifuge uses a special ability!")
+        pass
+
+# Example usage
+# lucifuge = Lucifuge()
+# lucifuge.move((6, 6))  # Example move
+# lucifuge.use_ability()  # Use special ability if knowledge threshold is reached
