@@ -6,7 +6,7 @@ from characters import Qbert, Coily, Lucifuge
 
 class GameBoard:
     def __init__(self):
-        """Initialize the game board with Pygame."""
+        """ Initialize the game board with Pygame. """
         pygame.init()
         self.screen_size = (1280, 720)
         self.screen = pygame.display.set_mode(self.screen_size)
@@ -17,7 +17,7 @@ class GameBoard:
         self.board = [[None for _ in range(self.board_size)] for _ in range(self.board_size)]
 
     def render(self, qbert, coily):
-        """Render the game board along with Q*bert and Coily."""
+        """ Render the game board along with Q*bert and Coily. """
         self.screen.fill((0, 0, 0))  # Clear screen with black background
         self.clear_board()
         self.place_character(qbert)
@@ -26,11 +26,11 @@ class GameBoard:
         pygame.display.flip()  # Update the full display surface to the screen
 
     def clear_board(self):
-        """Clear the board for a fresh render."""
+        """ Clear the board for a fresh render. """
         # Clearing logic (if needed)
 
     def place_character(self, character):
-        """Place a character on the screen."""
+        """ Place a character on the screen. """
         x, y = character.position
         screen_x = x * self.tile_width
         screen_y = y * self.tile_width
@@ -47,5 +47,5 @@ class GameBoard:
         pygame.draw.rect(self.screen, color, (screen_x, screen_y, self.tile_width, self.tile_width))
 
     def display_board(self):
-        """Display the board state."""
+        """ Display the board state. """
         # Additional rendering logic for the board
