@@ -35,3 +35,4 @@ def run_game():
 
         # Control the frame rate
         game_board.clock.tick(60)  # 60 frames per second
+
