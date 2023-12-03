@@ -1,4 +1,8 @@
+# rendering.py
+
+# Add necessary imports
 import pygame
+from characters import Qbert, Coily, Lucifuge 
 
 class GameBoard:
     def __init__(self):
@@ -26,17 +30,21 @@ class GameBoard:
         # Clearing logic (if needed)
 
     def place_character(self, character):
-        """Place a character on the screen.
-        
-        Parameters:
-            character (object): The character object to place.
-        """
+        """Place a character on the screen."""
         x, y = character.position
-        # Convert grid position to screen position
         screen_x = x * self.tile_width
         screen_y = y * self.tile_width
-        # Example character rendering: simple colored rectangle
-        pygame.draw.rect(self.screen, character.color, (screen_x, screen_y, self.tile_width, self.tile_width))
+
+        if isinstance(character, Qbert):
+            color = (255, 255, 0)  # Yellow for Q*bert
+        elif isinstance(character, Coily):
+            color = (255, 0, 0)  # Red for Coily
+        elif isinstance(character, Lucifuge):
+            color = (0, 255, 255)  # Cyan for Lucifuge
+        else:
+            color = (255, 255, 255)  # Default color
+
+        pygame.draw.rect(self.screen, color, (screen_x, screen_y, self.tile_width, self.tile_width))
 
     def display_board(self):
         """Display the board state."""
