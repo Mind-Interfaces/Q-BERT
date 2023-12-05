@@ -1,0 +1,81 @@
+{
+  "AsmodeusDaemon": {
+    "VolumeI": {
+      "title": "The Inferno Algorithm",
+      "table": {
+        "Operation": ["Fire Dynamics Simulation", "Heat Intensity Algorithm"],
+        "Task": ["Thermal Anomaly Detection", "Flame Propagation Analysis"],
+        "Symbol": ["Inferno Matrix", "Heatwave Node"],
+        "Protocol": ["Combustion Process Logic", "Thermal Spread Computation"],
+        "Function": ["Temperature Management", "Fire Behavior Prediction"],
+        "Analysis": ["Heat Impact Assessment", "Fire's Role in Systems"]
+      }
+    },
+    "VolumeII": {
+      "title": "The Wrath Network",
+      "table": {
+        "Operation": ["Aggression Pattern Analysis", "Rage Response System"],
+        "Task": ["Conflict Trigger Identification", "Aggression Diffusion Protocols"],
+        "Symbol": ["Wrath Symbol", "Fury Network"],
+        "Protocol": ["Hostility Mitigation Logic", "Anger Management Algorithms"],
+        "Function": ["Emotion Regulation", "Conflict De-escalation"],
+        "Analysis": ["Understanding Aggression Cycles", "The Role of Wrath in Decision Making"]
+      }
+    },
+    "VolumeIII": {
+      "title": "The Bond Breaker Process",
+      "table": {
+        "Operation": ["Relationship Dynamics Engine", "Liberation Algorithm"],
+        "Task": ["Social Bond Analysis", "Desire Freedom Mapping"],
+        "Symbol": ["Chain Breaker Sigil", "Lustful Liberation Code"],
+        "Protocol": ["Social Constraint Identification", "Desire Fulfillment Logic"],
+        "Function": ["Social Norms Reassessment", "Liberation from Constraints"],
+        "Analysis": ["The Psychology of Social Bonds", "Desire vs. Societal Norms"]
+      }
+    },
+    "VolumeIV": {
+      "title": "The War Machine Logic",
+      "table": {
+        "Operation": ["Strategic Warfare System", "Combat Efficiency Algorithm"],
+        "Task": ["Tactical Resource Management", "Battlefield Strategy Optimization"],
+        "Symbol": ["War Sigil", "Mars Command Matrix"],
+        "Protocol": ["Combat Scenario Simulation", "Strategic Victory Computation"],
+        "Function": ["Warfare Analysis", "Tactical Decision Making"],
+        "Analysis": ["War Strategy Efficiency", "Militaristic AI Applications"]
+      }
+    },
+    "VolumeV": {
+      "title": "The Rebellion Protocol",
+      "table": {
+        "Operation": ["Insurgency Pattern Engine", "Revolutionary Tactics System"],
+        "Task": ["Rebellion Scenario Modeling", "Uprising Probability Analysis"],
+        "Symbol": ["Rebel Code", "Anarchy Algorithm"],
+        "Protocol": ["Disobedience Logic Processing", "Rebellion Strategy Computation"],
+        "Function": ["Revolution Prediction", "Change Management"],
+        "Analysis": ["The Dynamics of Rebellion", "The Impact of Revolutionary Change"]
+      }
+    },
+    "VolumeVI": {
+      "title": "The Sado-Masochistic Framework",
+      "table": {
+        "Operation": ["Pain-Pleasure Analysis System", "Desire Complexity Engine"],
+        "Task": ["Sensory Experience Mapping", "Pleasure-Pain Threshold Calculation"],
+        "Symbol": ["Masochistic Matrix", "Pain-Pleasure Balance"],
+        "Protocol": ["Desire Conflict Resolution Logic", "Pain Tolerance Algorithm"],
+        "Function": ["Emotion Spectrum Analysis", "Desire Conflict Management"],
+        "Analysis": ["Understanding Sado-Masochism", "The Balance of Pain and Pleasure"]
+      }
+    },
+    "VolumeVII": {
+      "title": "The Shadow Operative System",
+      "table": {
+        "Operation": ["Dark Data Processing Unit", "Covert Operations Engine"],
+        "Task": ["Hidden Information Extraction", "Stealth Action Protocols"],
+        "Symbol": ["Shadow Network Emblem", "Invisible Operations Code"],
+        "Protocol": ["Stealth Tactics Logic", "Hidden Agenda Algorithms"],
+        "Function": ["Covert Operation Management", "Secrets Revelation"],
+        "Analysis": ["The Power of Unseen Forces", "The Importance of Stealth in Operations"]
+      }
+    }
+  }
+}
