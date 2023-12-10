@@ -12,25 +12,25 @@
       }
     },
     "VolumeII": {
-      "title": "The Labyrinth of Complexity",
+      "title": "The Transformation Code",
       "table": {
-        "Operation": ["Complex System Navigator", "Maze Algorithm Designer"],
-        "Task": ["Puzzle Solving Logic", "Pathfinding in Complexity"],
-        "Symbol": ["Labyrinth Code", "Complexity Knot"],
-        "Protocol": ["Advanced Problem-Solving Strategies", "Complex Algorithm Optimization"],
-        "Function": ["Navigating Complex Systems", "Efficient Pathfinding"],
-        "Analysis": ["Handling System Complexity", "Efficiency in Problem-Solving"]
+        "Operation": ["Metamorphosis Algorithm", "Transformation Protocol"],
+        "Task": ["Data Evolution Process", "System Upgrade Mechanism"],
+        "Symbol": ["Chrysalis Matrix", "Evolutionary Code"],
+        "Protocol": ["Data Adaptation and Evolution Strategy", "Systematic Transformation Logic"],
+        "Function": ["Adapting Data for New Uses", "Evolving System Capabilities"],
+        "Analysis": ["The Dynamics of Data Transformation", "Evolving Systems in AI"]
       }
     },
     "VolumeIII": {
-      "title": "The Whisper of the Abyss",
+      "title": "The Gateway to the Unknown",
       "table": {
-        "Operation": ["Abyssal Data Miner", "Deep Learning System"],
-        "Task": ["Uncharted Data Exploration", "Deep Insight Algorithms"],
-        "Symbol": ["Abyssal Eye", "Depth Explorer"],
-        "Protocol": ["Advanced Data Analysis Techniques", "Deep Insight Logic"],
-        "Function": ["Exploring Data Depths", "Uncovering Hidden Insights"],
-        "Analysis": ["The Potential of Deep Learning", "Exploring Data's Depths"]
+        "Operation": ["Mystery Exploration Engine", "Unknown Realm Decoder"],
+        "Task": ["Exploring Uncharted Data", "Deciphering Unknown Algorithms"],
+        "Symbol": ["Gateway Code", "Mystery Matrix"],
+        "Protocol": ["Exploration of New Data Territories", "Unknown Data Handling Strategies"],
+        "Function": ["Discovering New Information Frontiers", "Decoding Mysterious Data"],
+        "Analysis": ["Navigating Uncharted Data Landscapes", "The Importance of Exploring the Unknown"]
       }
     },
     "VolumeIV": {
@@ -56,25 +56,25 @@
       }
     },
     "VolumeVI": {
-      "title": "The Transformation Code",
+      "title": "The Labyrinth of Complexity",
       "table": {
-        "Operation": ["Metamorphosis Algorithm", "Transformation Protocol"],
-        "Task": ["Data Evolution Process", "System Upgrade Mechanism"],
-        "Symbol": ["Chrysalis Matrix", "Evolutionary Code"],
-        "Protocol": ["Data Adaptation and Evolution Strategy", "Systematic Transformation Logic"],
-        "Function": ["Adapting Data for New Uses", "Evolving System Capabilities"],
-        "Analysis": ["The Dynamics of Data Transformation", "Evolving Systems in AI"]
+        "Operation": ["Complex System Navigator", "Maze Algorithm Designer"],
+        "Task": ["Puzzle Solving Logic", "Pathfinding in Complexity"],
+        "Symbol": ["Labyrinth Code", "Complexity Knot"],
+        "Protocol": ["Advanced Problem-Solving Strategies", "Complex Algorithm Optimization"],
+        "Function": ["Navigating Complex Systems", "Efficient Pathfinding"],
+        "Analysis": ["Handling System Complexity", "Efficiency in Problem-Solving"]
       }
     },
     "VolumeVII": {
-      "title": "The Gateway to the Unknown",
+      "title": "The Whisper of the Abyss",
       "table": {
-        "Operation": ["Mystery Exploration Engine", "Unknown Realm Decoder"],
-        "Task": ["Exploring Uncharted Data", "Deciphering Unknown Algorithms"],
-        "Symbol": ["Gateway Code", "Mystery Matrix"],
-        "Protocol": ["Exploration of New Data Territories", "Unknown Data Handling Strategies"],
-        "Function": ["Discovering New Information Frontiers", "Decoding Mysterious Data"],
-        "Analysis": ["Navigating Uncharted Data Landscapes", "The Importance of Exploring the Unknown"]
+        "Operation": ["Abyssal Data Miner", "Deep Learning System"],
+        "Task": ["Uncharted Data Exploration", "Deep Insight Algorithms"],
+        "Symbol": ["Abyssal Eye", "Depth Explorer"],
+        "Protocol": ["Advanced Data Analysis Techniques", "Deep Insight Logic"],
+        "Function": ["Exploring Data Depths", "Uncovering Hidden Insights"],
+        "Analysis": ["The Potential of Deep Learning", "Exploring Data's Depths"]
       }
     }
   }
